@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 final class StopwatchViewModel: ObservableObject {
-    @Published var count = 0.0
+    @Published var count = 0.01
     @Published var countFormat = "00:00.00"
     @Published var isTimerRunning = false
     
@@ -20,10 +20,10 @@ final class StopwatchViewModel: ObservableObject {
     
     func startCounting() {
         isTimerRunning = true
-        cancellable = Timer.publish(every: 0.1, on: .main, in: .common)
+        cancellable = Timer.publish(every: 0.01, on: .main, in: .common)
             .autoconnect()
             .sink { _ in
-                self.count += 0.1
+                self.count += 0.01
                 self.Format(count: self.count)
             }
     }
