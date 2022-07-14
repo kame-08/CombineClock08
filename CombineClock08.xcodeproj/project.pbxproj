@@ -15,6 +15,7 @@
 		2A8F1B40287D67FF00916232 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F1B3F287D67FF00916232 /* ButtonView.swift */; };
 		2A8F1B42287D682100916232 /* SelectStopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F1B41287D682100916232 /* SelectStopwatchView.swift */; };
 		2A8F1B44287D683800916232 /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F1B43287D683800916232 /* StopwatchViewModel.swift */; };
+		2ACF71FF287FA981009C1D8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF7201287FA981009C1D8C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		2A8F1B3F287D67FF00916232 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2A8F1B41287D682100916232 /* SelectStopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStopwatchView.swift; sourceTree = "<group>"; };
 		2A8F1B43287D683800916232 /* StopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
+		2ACF7200287FA981009C1D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2ACF7202287FA984009C1D8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 		2A8F1B23287D67BE00916232 = {
 			isa = PBXGroup;
 			children = (
+				2ACF7201287FA981009C1D8C /* Localizable.strings */,
 				2A8F1B2E287D67BE00916232 /* CombineClock08 */,
 				2A8F1B2D287D67BE00916232 /* Products */,
 			);
@@ -145,6 +149,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 2A8F1B23287D67BE00916232;
 			productRefGroup = 2A8F1B2D287D67BE00916232 /* Products */;
@@ -162,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A8F1B37287D67BF00916232 /* Preview Assets.xcassets in Resources */,
+				2ACF71FF287FA981009C1D8C /* Localizable.strings in Resources */,
 				2A8F1B34287D67BF00916232 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +189,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ACF7201287FA981009C1D8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACF7200287FA981009C1D8C /* en */,
+				2ACF7202287FA984009C1D8C /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2A8F1B38287D67BF00916232 /* Debug */ = {

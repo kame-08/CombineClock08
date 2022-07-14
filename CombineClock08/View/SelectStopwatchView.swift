@@ -14,6 +14,9 @@ struct SelectStopwatchView: View {
                 .ignoresSafeArea()
             Text("Select Stopwatch")
                 .font(.title)
+                .lineLimit(1)
+            //日本語の時に自動で文字が縮小されるように
+                .minimumScaleFactor(0.1)
                 .foregroundColor(Color.orange)
         }
     }

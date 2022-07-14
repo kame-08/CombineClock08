@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  CombineClock08
+
+  Created by Ryo on 2022/07/14.
+  
+*/
+
+"World Clock" = "World Clock";
+"Alarm" = "Alarm";
+"Stopwatch" = "Stopwatch";
+"Timer" = "Timer";
+
+"Lap" = "Lap";
+"Reset" = "Reset";
+"Stop" = "Stop";
+"Start" = "Start";
+
+"Select Stopwatch" = "Select Stopwatch";
