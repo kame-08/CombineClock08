@@ -18,6 +18,7 @@ struct StopwatchView: View {
             VStack {
                 ZStack{
                     Circle()
+                        .fill(Color.black)
                         .frame(width: UIScreen.main.bounds.width, height:  UIScreen.main.bounds.width)
                     
                     Text("\(viewModel.countFormat)")
