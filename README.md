@@ -4,7 +4,7 @@ iPhone純正時計アプリを再現しました。
 
 **Demo**
 
-<img height="600" alt="gif" src="https://user-images.githubusercontent.com/86101228/179926739-c4e9a5fc-02f3-4180-a8ea-e97c487875c0.gif"><img height="600" alt="png" src="https://user-images.githubusercontent.com/86101228/179926774-94e871a1-1774-4c7a-a6ee-eadd38997500.png">
+<img height="500" alt="gif" src="https://user-images.githubusercontent.com/86101228/179926739-c4e9a5fc-02f3-4180-a8ea-e97c487875c0.gif"><img height="500" alt="png" src="https://user-images.githubusercontent.com/86101228/179926774-94e871a1-1774-4c7a-a6ee-eadd38997500.png">
 
 ## Features
 1. SwiftUIとCombineを使用して作成しました。
